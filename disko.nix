@@ -17,7 +17,7 @@
               content = {
                 type = "filesystem";
                 format = "vfat";
-                mountpoint = "/mnt/boot";
+                mountpoint = "/boot";
                 mountOptions = [ "umask=0077" ];
               };
             };
@@ -55,7 +55,7 @@
                   };
                 };
 
-                mountpoint = "/mnt";
+                mountpoint = "/";
               };
             };
           };
