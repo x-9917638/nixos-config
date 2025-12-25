@@ -47,7 +47,7 @@
                     swap = {
                       swapfile.size = "8G";
                     };
-                    mountOptions = [ "noatime" ]
+                    mountOptions = [ "noatime" ];
                   };
                 };
                 mountpoint = "/";
